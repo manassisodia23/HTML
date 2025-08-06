@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Date,file</title>                                    <!--date,file,range,button,label,checkbox,select,option,textarea-->
+</head>
+<body>
+  <form action="/contact.me">
+        Username:<input type="text" placeholder="enter name"><br><br>
+        Password:<input type="text" placeholder="enter password"><br><br>
+        Date:<input type="datetime-local"><br><br>
+        File:<input type="file"><br><br>
+        Price Range:<input type="range"><br><br>                      <!--range-->
+        button:<input type="button" value="refresh" ><br><br>
+        submit:<input type="submit"><br>
+    </form>
+<br><hr>
+    <form><label for="male">male:</label>                          <!--label--> <!--id is used to link male option with checkbox-->
+        <input type="radio" name="gender" id="male"><br><br>
+
+        <label for="female">female:</label>
+        <input type="radio" name="gender" id="female"><br><br>
+
+        <label for="other">other:</label>
+        <input type="radio" name="gender" id="other">
+    </form><br><hr>
+
+    <form><label for="c">c:</label>                          <!--label--> <!--idis used to link male option with checkbox-->
+        <input type="checkbox" name="Languages" id="c"><br><br>
+
+        <label for="c++">c++:</label>
+        <input type="checkbox" name="Languages" id="c++"><br><br>
+
+        <label for="java">java:</label>
+        <input type="checkbox" name="languages" id="java">
+    </form><br><hr>
+
+    <form>   
+         <label for="country">select you country:</label>        
+            <select name="country" id="country">
+            <option>india</option>                                 <!--select tag is used in multiple choices in radio-->
+            <option>china</option>
+            <option>pakistan</option><br>
+
+        </select>  <br>
+<label>select price option:</label>
+        <select name="price">
+            <option>100</option>
+            <option>150</option>
+            <option>200</option>
+        </select><br>
+
+        <textarea rows="10" cols="20" placeholder="write your deatils and query here">
+            <!--text are is useful for etxra content and useful -->
+        </textarea>
+        
+    </form>
+</body>
+</html>
